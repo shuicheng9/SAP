@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A369B07B-3F97-432E-B1DB-16DC4CD668CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Igbt.Production.SAP</RootNamespace>
+    <AssemblyName>Igbt.Production.SAP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="sapnco, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\sapnco.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco_utils, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\sapnco_utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\RFC_IN_BLL.cs" />
+    <Compile Include="BLL\RFC_OUT_BLL.cs" />
+    <Compile Include="ConvertDataSap.cs" />
+    <Compile Include="DAL\RFC_BOM_DAL.cs" />
+    <Compile Include="DAL\RFC_DEL_DAL.cs" />
+    <Compile Include="DAL\RFC_EM_DAL.cs" />
+    <Compile Include="DAL\RFC_FGO_DAL.cs" />
+    <Compile Include="DAL\RFC_FGS_DAL.cs" />
+    <Compile Include="DAL\RFC_FGU_DAL.cs" />
+    <Compile Include="DAL\RFC_FSO_DAL.cs" />
+    <Compile Include="DAL\RFC_GRP_DAL.cs" />
+    <Compile Include="DAL\RFC_GRW_DAL.cs" />
+    <Compile Include="DAL\RFC_MMU_DAL.cs" />
+    <Compile Include="DAL\RFC_MOVE_DAL.cs" />
+    <Compile Include="DAL\RFC_PCI_DAL.cs" />
+    <Compile Include="DAL\RFC_POM_DAL.cs" />
+    <Compile Include="DAL\RFC_PRD_DAL.cs" />
+    <Compile Include="DAL\RFC_QDT_DAL.cs" />
+    <Compile Include="DAL\RFC_RMU_DAL.cs" />
+    <Compile Include="DAL\RFC_RMU_LY_DAL.cs" />
+    <Compile Include="DAL\RFC_SPO_DAL.cs" />
+    <Compile Include="DAL\RFC_SSO_DAL.cs" />
+    <Compile Include="DAL\RFC_STOCK_DAL.cs" />
+    <Compile Include="DAL\RFC_STU_DAL.cs" />
+    <Compile Include="DAL\RFC_WTC_DAL.cs" />
+    <Compile Include="DAL\Z_MM_OPC_FG.cs" />
+    <Compile Include="Model\RFC_BOM_Model.cs" />
+    <Compile Include="Model\RFC_DEL_Model.cs" />
+    <Compile Include="Model\RFC_EM_Model.cs" />
+    <Compile Include="Model\RFC_FGO_Model.cs" />
+    <Compile Include="Model\RFC_FGS_Model.cs" />
+    <Compile Include="Model\RFC_FGU_Model.cs" />
+    <Compile Include="Model\RFC_FSO_Model.cs" />
+    <Compile Include="Model\RFC_GPR_Model.cs" />
+    <Compile Include="Model\RFC_GRW_Model.cs" />
+    <Compile Include="Model\RFC_IN_Message.cs" />
+    <Compile Include="Model\RFC_MMU_Model.cs" />
+    <Compile Include="Model\RFC_MOVE_Model.cs" />
+    <Compile Include="Model\RFC_OUT_Message.cs" />
+    <Compile Include="Model\RFC_PCI_Model.cs" />
+    <Compile Include="Model\RFC_POM_Model.cs" />
+    <Compile Include="Model\RFC_PRD_Model.cs" />
+    <Compile Include="Model\RFC_QDT_Model.cs" />
+    <Compile Include="Model\RFC_RMU_LY_Model.cs" />
+    <Compile Include="Model\RFC_RMU_Model.cs" />
+    <Compile Include="Model\RFC_SPO_Model.cs" />
+    <Compile Include="Model\RFC_STOCK_Model.cs" />
+    <Compile Include="Model\RFC_STU_Model.cs" />
+    <Compile Include="Model\RFC_WTC_Model.cs" />
+    <Compile Include="Model\Z_MM_OPC_FG_Model.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RFC_Connection.cs" />
+    <Compile Include="Model\RFC_Parameters_Model.cs" />
+    <Compile Include="Model\RFC_SSO_Model.cs" />
+    <Compile Include="RFC_SetUp.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

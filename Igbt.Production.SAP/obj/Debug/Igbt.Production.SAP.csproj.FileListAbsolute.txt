@@ -1,0 +1,13 @@
+D:\Igbt系统\Igbt_Production\Igbt.Production.SAP\bin\Debug\Igbt.Production.SAP.dll
+D:\Igbt系统\Igbt_Production\Igbt.Production.SAP\bin\Debug\Igbt.Production.SAP.pdb
+D:\Igbt系统\Igbt_Production\Igbt.Production.SAP\obj\Debug\Igbt.Production.SAP.dll
+D:\Igbt系统\Igbt_Production\Igbt.Production.SAP\obj\Debug\Igbt.Production.SAP.pdb
+D:\igbt_program\Igbt_Production\Igbt.Production.SAP\bin\Debug\Igbt.Production.SAP.dll
+D:\igbt_program\Igbt_Production\Igbt.Production.SAP\bin\Debug\Igbt.Production.SAP.pdb
+D:\igbt_program\Igbt_Production\Igbt.Production.SAP\obj\Debug\Igbt.Production.SAP.dll
+D:\igbt_program\Igbt_Production\Igbt.Production.SAP\obj\Debug\Igbt.Production.SAP.pdb
+C:\Users\guobin2\Desktop\工作文件\Code\Igbt_Production\Igbt.Production.SAP\bin\Debug\Igbt.Production.SAP.dll
+C:\Users\guobin2\Desktop\工作文件\Code\Igbt_Production\Igbt.Production.SAP\bin\Debug\Igbt.Production.SAP.pdb
+C:\Users\guobin2\Desktop\工作文件\Code\Igbt_Production\Igbt.Production.SAP\obj\Debug\Igbt.Production.SAP.csprojResolveAssemblyReference.cache
+C:\Users\guobin2\Desktop\工作文件\Code\Igbt_Production\Igbt.Production.SAP\obj\Debug\Igbt.Production.SAP.dll
+C:\Users\guobin2\Desktop\工作文件\Code\Igbt_Production\Igbt.Production.SAP\obj\Debug\Igbt.Production.SAP.pdb
